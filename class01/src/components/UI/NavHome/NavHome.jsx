@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const NavHome = ({textNav1,textNa2,textNa3, ref}) => {
+export const NavHome = () => {
   return (
-    <nav>
-        <a href='#'>{}</a>
-        <a href='#'>{}</a>
-        <a href='#'>{}</a>
+    <nav className='nav'>
+        <a href='#'>HOME</a>
+        <a href='#'>ABOUTUS</a>
+        <a href='#'>CONTACTUS</a>
     </nav>
   )
 }

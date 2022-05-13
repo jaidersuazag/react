@@ -3,7 +3,7 @@ import logotipo from '../../../Images/alfa-romeo.png';
 
 export const Logo = () => {
   return (
-    <img src={logotipo} alt="Logotipo"/>
+    <img className='alfa' src={logotipo} alt="Logotipo"/>
   )
 }
 
