@@ -16,6 +16,7 @@ body{
 
 .nav a{
   text-decoration: none;
+  
 }
 
 .contenedor{
@@ -25,4 +26,38 @@ body{
   height:280px;
   align-items: center;
 
+}
+
+.btnsum{
+  width:69px;
+  height:25px;
+  border-radius:10px;
+  background-color: rgb(255, 153, 0);
+}
+
+.btnreset{
+  width:69px;
+  height:25px;
+  border-radius:10px;
+  background-color:rgb(255, 153, 0);
+}
+
+.btnSubstra{
+  width:69px;
+  height:25px;
+  border-radius:10px;
+  background-color:rgb(255, 153, 0);;
+}
+
+.numero{
+  text-align: center;
+}
+
+.oscuro{
+  background-color:black ;
+  color:white;
+}
+
+.botones{
+  text-align: center;
 }
