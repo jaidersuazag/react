@@ -1,27 +1,21 @@
-import React, { useState } from 'react'
-import { ButtonUI } from '../../UI/ButtonUI/ButtonUI';
+import React from 'react'
 
-export const UseSate = () => {
-  const[counter,setCounter]=useState(0);
+export const UseEffect = () => {
+    const[counter,setCounter]=useState(0);
 
   const handleAdd=()=>{
-    setCounter(counter+1);
+    setCounter(counter+10);
   }
 
   const handleSubstract=()=>{
-    setCounter(counter-1);
+    setCounter(counter-10);
   }
 
   const handleReset=()=>{
     setCounter(0);
   }
 
-  function cambiarColor(){
-    let body = document.body;
-    body.classList.toggle("oscuro")
-  }
-
-
+ 
   return (
     <div className='botones'>
         <h1 className='numero'>{counter}</h1>
@@ -52,4 +46,3 @@ export const UseSate = () => {
     </div>
   )
 }
-

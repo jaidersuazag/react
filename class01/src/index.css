@@ -1,6 +1,5 @@
 body{
   background-color:rgba(44, 158, 211, 0.692);
-
 }
 
 .alfa{
@@ -16,7 +15,6 @@ body{
 
 .nav a{
   text-decoration: none;
-  
 }
 
 .contenedor{
@@ -25,7 +23,6 @@ body{
   width:100%;
   height:280px;
   align-items: center;
-
 }
 
 .btnsum{
@@ -61,3 +58,17 @@ body{
 .botones{
   text-align: center;
 }
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+.buscar{
+  text-align: center;
+}
+
+.navegacion{
+  margin: 0 0 35px 0;
+}
+
